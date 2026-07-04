@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أمجد حسن - خبير مبيعات عقارية</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<script>
+  tailwind.config = { theme: { extend: { fontFamily: { sans: ['Cairo','system-ui'] } } } }
+</script>
+<style>
+  body { font-family: 'Cairo', sans-serif; -webkit-font-smoothing: antialiased; }
+  .glass { backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); }
+  .shine { position: relative; overflow: hidden; }
+  .shine::after { content:''; position:absolute; inset:0; background:linear-gradient(110deg,transparent 40%,rgba(255,255,255,.15) 50%,transparent 60%); transform:translateX(-100%); animation:shine 6s infinite; }
+  @keyframes shine { 100% { transform:translateX(200%); } }
+  @media print { .no-print{display:none!important} body{background:white!important} .shadow-2xl,.shadow-xl,.shadow{box-shadow:none!important} }
+</style>
+</head>
+<body class="bg-[#f0f4f8] text-slate-800">
+  <div class="max-w-6xl mx-auto p-4 md:p-6 lg:p-8">
+    
+    <!-- Header -->
+    <header class="relative overflow-hidden rounded-[36px] bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 text-white shadow-2xl shine">
+      <div class="absolute inset-0">
+        <div class="absolute -top-32 -left-32 w-96 h-96 bg-blue-600/30 rounded-full blur-[120px]"></div>
+        <div class="absolute -bottom-24 -right-24 w-80 h-80 bg-cyan-400/20 rounded-full blur-[100px]"></div>
+        <svg class="absolute inset-0 w-full h-full opacity-[0.04]" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M0 32V0h32" fill="none" stroke="white" stroke-width="0.5"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/></svg>
+      </div>
+      
+      <div class="relative p-8 md:p-12 lg:p-14">
+        <div class="flex flex-col xl:flex-row xl:items-start xl:justify-between gap-10">
+          <div class="flex-1">
+            <div class="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-400/20 text-emerald-300 rounded-full px-4 py-1.5 text-xs font-bold mb-6">
+              <span class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
+              متاح لفرص جديدة في العقارات الفاخرة
+            </div>
+            <h1 class="text-5xl md:text-6xl lg:text-[68px] font-black tracking-tight leading-none">أمجد حسن</h1>
+            <p class="mt-4 text-xl md:text-2xl font-semibold text-blue-300">خبير مبيعات عقارية وإدارة علاقات عملاء</p>
+            <p class="mt-5 max-w-2xl text-[15px] leading-8 text-slate-300">متخصص في إغلاق الصفقات عالية القيمة في مدينتي والتجمع الخامس. خبرة في إدارة محافظ استثمارية وتحويل العملاء المحتملين إلى عملاء دائمين باستخدام HubSpot و Salesforce.</p>
+            
+            <div class="flex flex-wrap gap-3 mt-8 no-print">
+              <a href="https://wa.me/201113979873" target="_blank" class="group inline-flex items-center gap-2 bg-white text-slate-900 font-bold px-5 py-3 rounded-xl hover:translate-y-[-2px] transition-all shadow-lg shadow-black/20">
+                <span>تواصل واتساب</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 0 0 1 4.7-7.6 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              </a>
+              <button onclick="window.print()" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/15 border border-white/20 font-bold px-5 py-3 rounded-xl transition">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v8H6z"/></svg>
+                تحميل السيرة PDF
+              </button>
+            </div>
+          </div>
+
+          <div class="xl:w-[340px] w-full">
+            <div class="glass bg-white/[0.06] border border-white/15 rounded-3xl p-6 shadow-2xl">
+              <div class="space-y-4 text-[14px]">
+                <a href="tel:+201113979873" class="flex items-center justify-between group">
+                  <div class="flex items-center gap-3">
+                    <div class="w-9 h-9 rounded-xl bg-white/10 grid place-items-center group-hover:bg-white/20 transition">📱</div>
+                    <div><div class="text-slate-400 text-xs">الهاتف</div><div class="font-bold tracking-wide">+20 111 397 9873</div></div>
+                  </div>
+                </a>
+                <a href="mailto:amgadhassan991@gmail.com" class="flex items-center justify-between group">
+                  <div class="flex items-center gap-3">
+                    <div class="w-9 h-9 rounded-xl bg-white/10 grid place-items-center group-hover:bg-white/20 transition">✉️</div>
+                    <div><div class="text-slate-400 text-xs">البريد</div><div class="font-bold">amgadhassan991@gmail.com</div></div>
+                  </div>
+                </a>
+                <div class="flex items-center gap-3">
+                  <div class="w-9 h-9 rounded-xl bg-white/10 grid place-items-center">📍</div>
+                  <div><div class="text-slate-400 text-xs">الموقع</div><div class="font-bold">القاهرة، مصر</div></div>
+                </div>
+              </div>
+              <div class="mt-5 pt-5 border-t border-white/10 flex items-center gap-2 text-xs text-slate-300">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+                متخصص في مدينتي • التجمع الخامس • العاصمة الإدارية
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Grid -->
+    <div class="grid lg:grid-cols-12 gap-6 mt-6">
+      
+      <!-- Sidebar -->
+      <aside class="lg:col-span-4 space-y-6">
+        
+        <!-- Stats -->
+        <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/60 p-6 border border-slate-100">
+          <h3 class="font-black text-slate-900 text-lg mb-5 flex items-center gap-2">
+            <span class="w-1.5 h-6 bg-blue-600 rounded-full"></span>أرقام تتحدث عني
+          </h3>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-4 border border-blue-100">
+              <div class="text-3xl font-black text-blue-700" data-count="250000">$<span>0</span></div>
+              <div class="text-xs font-bold text-slate-600 mt-1">مبيعات محققة</div>
+            </div>
+            <div class="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-4 border border-emerald-100">
+              <div class="text-3xl font-black text-emerald-700" data-count="1400">0<span>+</span></div>
+              <div class="text-xs font-bold text-slate-600 mt-1">عميل مُدار</div>
+            </div>
+            <div class="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-4 border border-amber-100">
+              <div class="text-3xl font-black text-amber-700" data-count="29">0<span>%</span></div>
+              <div class="text-xs font-bold text-slate-600 mt-1">تقليل دورة البيع</div>
+            </div>
+            <div class="bg-gradient-to-br from-violet-50 to-purple-50 rounded-2xl p-4 border border-violet-100">
+              <div class="text-3xl font-black text-violet-700" data-count="3000">0<span>+</span></div>
+              <div class="text-xs font-bold text-slate-600 mt-1">Lead في CRM</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/60 p-6 border border-slate-100">
+          <h3 class="font-black text-slate-900 text-lg mb-4 flex items-center gap-2">
+            <span class="w-1.5 h-6 bg-blue-600 rounded-full"></span>المهارات الأساسية
+          </h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3.5 py-2 bg-slate-900 text-white rounded-xl text-xs font-bold hover:-translate-y-0.5 transition">HubSpot CRM</span>
+            <span class="px-3.5 py-2 bg-blue-600 text-white rounded-xl text-xs font-bold hover:-translate-y-0.5 transition">Salesforce</span>
+            <span class="px-3.5 py-2 bg-slate-100 text-slate-800 rounded-xl text-xs font-bold hover:bg-slate-200 transition">التفاوض الاحترافي</span>
+            <span class="px-3.5 py-2 bg-slate-100 text-slate-800 rounded-xl text-xs font-bold">Tele-Sales</span>
+            <span class="px-3.5 py-2 bg-slate-100 text-slate-800 rounded-xl text-xs font-bold">إدارة العملاء VIP</span>
+            <span class="px-3.5 py-2 bg-slate-100 text-slate-800 rounded-xl text-xs font-bold">العقارات الفاخرة</span>
+            <span class="px-3.5 py-2 bg-slate-100 text-slate-800 rounded-xl text-xs font-bold">تحليل ROI</span>
+            <span class="px-3.5 py-2 bg-slate-100 text-slate-800 rounded-xl text-xs font-bold">إغلاق الصفقات</span>
+          </div>
+        </div>
+
+        <!-- Languages -->
+        <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/60 p-6 border border-slate-100">
+          <h3 class="font-black text-slate-900 text-lg mb-4 flex items-center gap-2">
+            <span class="w-1.5 h-6 bg-blue-600 rounded-full"></span>اللغات
+          </h3>
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between text-sm font-bold mb-2"><span>العربية</span><span class="text-slate-500">اللغة الأم</span></div>
+              <div class="h-2.5 bg-slate-100 rounded-full overflow-hidden"><div class="h-full w-full bg-gradient-to-r from-slate-900 to-slate-700 rounded-full"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm font-bold mb-2"><span>الإنجليزية</span><span class="text-slate-500">جيد جداً</span></div>
+              <div class="h-2.5 bg-slate-100 rounded-full overflow-hidden"><div class="h-full w-[75%] bg-gradient-to-r from-blue-600 to-cyan-500 rounded-full"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/60 p-6 border border-slate-100">
+          <h3 class="font-black text-slate-900 text-lg mb-4 flex items-center gap-2">
+            <span class="w-1.5 h-6 bg-blue-600 rounded-full"></span>التعليم
+          </h3>
+          <div class="space-y-4">
+            <div class="relative pr-4 border-r-2 border-slate-200">
+              <div class="absolute -right-[7px] top-1 w-3 h-3 bg-blue-600 rounded-full border-2 border-white"></div>
+              <div class="font-extrabold text-slate-900">بكالوريوس إدارة أعمال</div>
+              <div class="text-sm text-slate-600">جامعة عين شمس — قيد الدراسة</div>
+            </div>
+            <div class="relative pr-4 border-r-2 border-slate-200">
+              <div class="absolute -right-[7px] top-1 w-3 h-3 bg-slate-400 rounded-full border-2 border-white"></div>
+              <div class="font-extrabold text-slate-900">Financial Markets</div>
+              <div class="text-sm text-slate-600">Yale University via Coursera — 2023</div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Content -->
+      <main class="lg:col-span-8 space-y-6">
+        
+        <!-- About -->
+        <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/60 p-7 md:p-9 border border-slate-100">
+          <h3 class="font-black text-slate-900 text-xl mb-4 flex items-center gap-2">
+            <span class="w-1.5 h-7 bg-blue-600 rounded-full"></span>نبذة احترافية
+          </h3>
+          <p class="text-[15.5px] leading-8 text-slate-700 text-justify">
+            متخصص مبيعات بخبرة عملية تتجاوز 7 سنوات في العقارات (مدينتي والتجمع الخامس) وإدارة علاقات المستثمرين في قطاع التداول بدبي. حققت مبيعات بقيمة <span class="font-bold text-slate-900">250 ألف دولار</span> وأدرت محفظة <span class="font-bold text-slate-900">1400+ عميل</span>، مع تقليل دورة المبيعات بنسبة <span class="font-bold text-emerald-600">29%</span> (من 45 إلى 32 يوم). أجيد استخدام أنظمة CRM المتقدمة وبناء علاقات طويلة المدى مع العملاء.
+          </p>
+        </div>
+
+        <!-- Experience -->
+        <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/60 p-7 md:p-9 border border-slate-100">
+          <h3 class="font-black text-slate-900 text-xl mb-7 flex items-center gap-2">
+            <span class="w-1.5 h-7 bg-blue-600 rounded-full"></span>الخبرات العملية
+          </h3>
+          
+          <div class="space-y-8">
+            <!-- Job 1 -->
+            <div class="group relative">
+              <div class="absolute right-0 top-0 bottom-0 w-[2px] bg-slate-200 group-last:hidden"></div>
+              <div class="relative flex gap-5">
+                <div class="shrink-0 w-11 h-11 rounded-2xl bg-gradient-to-br from-blue-600 to-indigo-600 text-white grid place-items-center shadow-lg shadow-blue-600/20 font-black">1</div>
+                <div class="flex-1 pb-1">
+                  <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                    <h4 class="text-lg font-black text-slate-900">استشاري عقارات حر</h4>
+                    <span class="text-xs font-bold px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-700">2024 – الحالي</span>
+                  </div>
+                  <div class="text-[13px] font-bold text-blue-700 mt-1">القاهرة | مدينتي والتجمع الخامس</div>
+                  <ul class="mt-3 space-y-2 text-[14px] text-slate-700 leading-7">
+                    <li class="flex gap-2"><span class="text-blue-600 mt-[7px]">◂</span><span>إدارة صفقات استثمارية لعملاء VIP مع التركيز على العائد على الاستثمار ROI</span></li>
+                    <li class="flex gap-2"><span class="text-blue-600 mt-[7px]">◂</span><span>تقديم استشارات سوقية دقيقة بناءً على تحليل العرض والطلب في شرق القاهرة</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Job 2 -->
+            <div class="group relative">
+              <div class="absolute right-0 top-0 bottom-0 w-[2px] bg-slate-200 group-last:hidden"></div>
+              <div class="relative flex gap-5">
+                <div class="shrink-0 w-11 h-11 rounded-2xl bg-gradient-to-br from-slate-800 to-slate-900 text-white grid place-items-center shadow-lg font-black">2</div>
+                <div class="flex-1 pb-1">
+                  <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                    <h4 class="text-lg font-black text-slate-900">أخصائي مبيعات أول – StarTrader</h4>
+                    <span class="text-xs font-bold px-2.5 py-1 rounded-full bg-slate-200 text-slate-700">2023 – 2024</span>
+                  </div>
+                  <div class="text-[13px] font-bold text-slate-600 mt-1">دبي، الإمارات العربية المتحدة</div>
+                  <ul class="mt-3 space-y-2 text-[14px] text-slate-700 leading-7">
+                    <li class="flex gap-2"><span class="text-blue-600 mt-[7px]">◂</span><span>إدارة التواصل مع المستثمرين في الأسواق المالية وتحقيق الأهداف البيعية الشهرية</span></li>
+                    <li class="flex gap-2"><span class="text-blue-600 mt-[7px]">◂</span><span>استخدام HubSpot و Salesforce لإدارة أكثر من 3,000 عميل محتمل</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Job 3 -->
+            <div class="group relative">
+              <div class="relative flex gap-5">
+                <div class="shrink-0 w-11 h-11 rounded-2xl bg-gradient-to-br from-slate-400 to-slate-500 text-white grid place-items-center shadow-lg font-black">3</div>
+                <div class="flex-1">
+                  <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                    <h4 class="text-lg font-black text-slate-900">أخصائي مبيعات وعلاقات عملاء</h4>
+                    <span class="text-xs font-bold px-2.5 py-1 rounded-full bg-slate-200 text-slate-700">2019 – 2023</span>
+                  </div>
+                  <div class="text-[13px] font-bold text-slate-600 mt-1">المذاق الأصلي | القاهرة</div>
+                  <ul class="mt-3 space-y-2 text-[14px] text-slate-700 leading-7">
+                    <li class="flex gap-2"><span class="text-blue-600 mt-[7px]">◂</span><span>إدارة محفظة 1,400 عميل وتحقيق مبيعات تراكمية بقيمة 250,000$</span></li>
+                    <li class="flex gap-2"><span class="text-blue-600 mt-[7px]">◂</span><span>تقليل متوسط دورة المبيعات من 45 إلى 32 يوم عبر تحسين المتابعة بـ CRM</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="bg-gradient-to-br from-slate-900 to-blue-950 rounded-3xl p-8 text-white shadow-2xl relative overflow-hidden no-print">
+          <div class="absolute -left-20 -bottom-20 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl"></div>
+          <div class="relative flex flex-col md:flex-row items-start md:items-center justify-between gap-5">
+            <div>
+              <h4 class="text-xl font-black">هل تبحث عن مستشار عقاري موثوق؟</h4>
+              <p class="text-slate-300 mt-1 text-sm">متخصص في مدينتي والتجمع الخامس - استشارة مجانية لأول تواصل</p>
+            </div>
+            <div class="flex gap-2">
+              <a href="tel:+201113979873" class="bg-white text-slate-900 font-bold px-5 py-3 rounded-xl hover:opacity-90 transition">اتصال الآن</a>
+              <a href="mailto:amgadhassan991@gmail.com" class="bg-white/10 border border-white/20 font-bold px-5 py-3 rounded-xl hover:bg-white/15 transition">إرسال بريد</a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="text-center text-xs text-slate-500 mt-10 pb-6">© 2025 أمجد حسن — جميع الحقوق محفوظة</footer>
+  </div>
+
+<script>
+  // Animate counters
+  const counters = document.querySelectorAll('[data-count]');
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        const el = entry.target;
+        const target = +el.dataset.count;
+        let current = 0;
+        const step = Math.ceil(target / 60);
+        const span = el.querySelector('span') || el;
+        const suffix = el.textContent.replace(/[0-9]/g,'');
+        const timer = setInterval(()=>{
+          current += step;
+          if(current >= target){ current = target; clearInterval(timer); }
+          if(el.dataset.count == '250000'){ span.textContent = (current/1000).toFixed(0) + 'K'; } 
+          else { span.textContent = current.toLocaleString('en'); }
+        }, 25);
+        io.unobserve(el);
+      }
+    });
+  }, {threshold:0.6});
+  counters.forEach(c=>io.observe(c));
+</script>
+</body>
+</html>
